@@ -1,5 +1,11 @@
 # @thanix-k/tsconfig
 
+## 0.4.0
+
+### Minor Changes
+
+- 5f50c38: Someting eles ebut another minor
+
 ## 0.3.0
 
 ### Minor Changes
