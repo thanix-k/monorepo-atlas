@@ -33,7 +33,22 @@ importers:
         specifier: ^5.4.3
         version: 5.8.3
 
+  packages/core:
+    dependencies:
+      '@thanix-k/icons':
+        specifier: 0.0.0
+        version: link:../icons
+      '@thanix-k/widgets':
+        specifier: 0.0.0
+        version: link:../widgets
+
+  packages/icons: {}
+
+  packages/private-js: {}
+
   packages/tsconfig: {}
+
+  packages/widgets: {}
 
 packages:
 

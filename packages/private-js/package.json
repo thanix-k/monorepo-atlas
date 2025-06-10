@@ -1,0 +1,9 @@
+{
+  "name": "@thanix-k/private-js",
+  "private": true,
+  "version": "0.0.0",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}
