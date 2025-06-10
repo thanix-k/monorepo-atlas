@@ -29,7 +29,9 @@
     "clean": "pnpm run -r clean && rm -rf node_modules",
     "clean:outputs": "pnpm run -r clean:outputs && rm -rf node_modules/.cache",
     "dev": "preconstruct dev && turbo run dev",
-    "build:packages": "turbo run build --filter=./packages/*"
+    "build:packages": "turbo run build --filter=./packages/*",
+    "ci:version": "changeset version && pnpm install --no-frozen-lockfile --config.strict-peer-dependencies=false",
+    "ci:publish": "changeset publish"
   },
   "dependencies": {
     "@thanix-k/tsconfig": "0.4.0",
