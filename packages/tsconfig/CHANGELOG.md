@@ -1,5 +1,11 @@
 # @thanix-k/tsconfig
 
+## 0.6.0
+
+### Minor Changes
+
+- 5343985: ts config minor changes
+
 ## 0.5.0
 
 ### Minor Changes
