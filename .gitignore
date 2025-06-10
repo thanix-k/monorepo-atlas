@@ -1,0 +1,16 @@
+.cache
+.DS_Store
+.next
+.npmrc
+.turbo
+.turbo
+.vercel
+*.local
+*.log
+dist
+dist-ssr
+node_modules
+public/dist
+server/dist
+*.tsbuildinfo
+/.idea/

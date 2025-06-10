@@ -1,0 +1,45 @@
+{
+  "name": "@thx/root",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@8.10.2",
+  "engines": {
+    "node": ">= 18.20.4",
+    "pnpm": "8"
+  },
+  "manypkg": {
+    "defaultBranch": "main"
+  },
+  "simple-git-hooks": {
+    "pre-push": "pnpm run check:format && pnpm run check:lint"
+  },
+  "pnpm": {
+    "patchedDependencies": {}
+  },
+  "preconstruct": {
+    "packages": [
+      "packages/brands",
+      "packages/core",
+      "packages/translations"
+    ]
+  },
+  "scripts": {
+    "build": "turbo run build",
+    "changeset": "changeset",
+    "clean": "pnpm run -r clean && rm -rf node_modules",
+    "clean:outputs": "pnpm run -r clean:outputs && rm -rf node_modules/.cache",
+    "dev": "preconstruct dev && turbo run dev",
+    "build:packages": "turbo run build --filter=./packages/*"
+  },
+  "dependencies": {
+    "@thx/babel-preset": "0.0.0",
+    "@thx/tsconfig": "0.0.0",
+    "@changesets/cli": "^2.29.4",
+    "@manypkg/cli": "^0.21.4",
+    "@preconstruct/cli": "^2.8.12",
+    "simple-git-hooks": "^2.13.0",
+    "tsx": "^4.19.4",
+    "turbo": "^2.5.3",
+    "typescript": "^5.4.3"
+  }
+}
