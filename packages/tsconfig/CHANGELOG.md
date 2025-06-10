@@ -1,5 +1,12 @@
 # @thanix-k/tsconfig
 
+## 0.5.0
+
+### Minor Changes
+
+- 4612f41: New changeset for the tsconfig page
+- 8ca354e: another change to check if all works
+
 ## 0.4.0
 
 ### Minor Changes
