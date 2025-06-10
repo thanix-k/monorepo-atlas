@@ -11,9 +11,6 @@
   "manypkg": {
     "defaultBranch": "main"
   },
-  "simple-git-hooks": {
-    "pre-push": "pnpm run check:format && pnpm run check:lint"
-  },
   "pnpm": {
     "patchedDependencies": {}
   },
