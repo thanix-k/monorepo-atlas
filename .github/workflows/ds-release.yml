@@ -40,8 +40,8 @@ jobs:
           publish: pnpm ci:publish
           createGithubReleases: true
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          GITHUB_TOKEN: ${{ secrets.WORKFLOWS_TOKEN }}
+          NODE_AUTH_TOKEN: ${{secrets.WORKFLOWS_TOKEN}}
 
       - name: Send a notification if a publish happens
         if: steps.changesets.outputs.published == 'true'
