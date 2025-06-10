@@ -4,6 +4,12 @@
 
 ### Major Changes
 
+- pblish a new package
+
+## 1.0.0
+
+### Major Changes
+
 - major release of tsconfig
 
 ## 1.0.0

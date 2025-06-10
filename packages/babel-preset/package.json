@@ -1,7 +1,6 @@
 {
-  "name": "@thx/babel-preset",
-  "version": "0.0.0",
-  "private": true,
+  "name": "@thanix-k/babel-preset",
+  "version": "1.0.0",
   "license": "MIT",
   "main": "index.js",
   "devDependencies": {

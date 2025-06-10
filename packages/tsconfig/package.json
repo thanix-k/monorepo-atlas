@@ -1,7 +1,6 @@
 {
-  "name": "@thx/tsconfig",
+  "name": "@thanix-k/tsconfig",
   "version": "1.0.0",
-  "private": true,
   "license": "MIT",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
