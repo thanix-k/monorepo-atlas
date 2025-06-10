@@ -18,8 +18,8 @@ importers:
         specifier: ^2.8.12
         version: 2.8.12
       '@thanix-k/tsconfig':
-        specifier: 0.5.0
-        version: 0.5.0
+        specifier: 0.6.0
+        version: link:packages/tsconfig
       simple-git-hooks:
         specifier: ^2.13.0
         version: 2.13.0
@@ -913,10 +913,6 @@ packages:
     engines: {node: '>=14.16'}
     dependencies:
       defer-to-connect: 2.0.1
-    dev: false
-
-  /@thanix-k/tsconfig@0.5.0:
-    resolution: {integrity: sha512-BeTWWpg481csvZwdLUWzkac41or0ohXqq7pho5H3tcny7e6UefH9PGq7mLUiPrreXSJcQZWx3f2kjS1VLYwGvw==, tarball: https://npm.pkg.github.com/download/@thanix-k/tsconfig/0.5.0/8e44674cf1573c9784e794d88824c64f56a8e50d}
     dev: false
 
   /@types/estree@0.0.39:
