@@ -1,25 +1,29 @@
-# @thx/tsconfig
+# @thanix-k/tsconfig
 
-## 1.0.0
+## 0.3.0
 
-### Major Changes
+### Minor Changes
 
-- pblish a new package
+- another minor change
 
-## 1.0.0
+## 0.2.0
 
-### Major Changes
+### Minor Changes
 
-- major release of tsconfig
+- another change
 
-## 1.0.0
+### Patch Changes
 
-### Major Changes
+- patch change only
 
-- Publishing new packages
+## 0.1.0
 
-## 2.0.0
+### Minor Changes
 
-### Major Changes
+- another changes
 
-- Publishing new packagess
+## 0.1.0
+
+### Minor Changes
+
+- checking a minor change

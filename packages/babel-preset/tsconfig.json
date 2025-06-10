@@ -1,5 +1,0 @@
-{
-  "extends": "@thx/tsconfig/node18.json",
-  "include": ["."],
-  "exclude": ["dist", "build", "node_modules"]
-}
