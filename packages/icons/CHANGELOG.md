@@ -1,5 +1,12 @@
 # @thanix-k/icons
 
+## 0.7.0
+
+### Minor Changes
+
+- 7792ecc: new icons added
+- 0891341: icons has been updated
+
 ## 0.6.0
 
 ### Minor Changes
