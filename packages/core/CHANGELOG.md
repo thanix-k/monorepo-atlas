@@ -1,5 +1,17 @@
 # @thanix-k/core
 
+## 0.5.0
+
+### Minor Changes
+
+- 7792ecc: minor update from core
+
+### Patch Changes
+
+- Updated dependencies [7792ecc]
+- Updated dependencies [0891341]
+  - @thanix-k/icons@0.7.0
+
 ## 0.4.1
 
 ### Patch Changes
