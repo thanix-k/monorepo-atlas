@@ -1,5 +1,11 @@
 # @thanix-k/icons
 
+## 0.9.0
+
+### Minor Changes
+
+- 5d0f65d: new 8
+
 ## 0.8.0
 
 ### Minor Changes
