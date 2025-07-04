@@ -1,8 +1,11 @@
 {
   "name": "@thanix-k/widgets",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "license": "MIT",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
+  },
+  "dependencies": {
+    "@thanix-k/core": "*"
   }
 }

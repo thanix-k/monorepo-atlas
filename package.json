@@ -28,7 +28,8 @@
     "dev": "preconstruct dev && turbo run dev",
     "build:packages": "turbo run build --filter=./packages/*",
     "ci:version": "changeset version && pnpm install --no-frozen-lockfile --config.strict-peer-dependencies=false",
-    "ci:publish": "changeset publish"
+    "ci:publish": "changeset publish && pnpm run ci:compile-ts",
+    "ci:compile-ts": "pnpm --filter=./packages/core compile-ts"
   },
   "dependencies": {
     "@thanix-k/tsconfig": "0.6.0",

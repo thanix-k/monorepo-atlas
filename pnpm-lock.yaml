@@ -36,11 +36,8 @@ importers:
   packages/core:
     dependencies:
       '@thanix-k/icons':
-        specifier: 0.7.0
+        specifier: 0.8.0
         version: link:../icons
-      '@thanix-k/widgets':
-        specifier: 0.0.0
-        version: link:../widgets
 
   packages/icons: {}
 
@@ -48,7 +45,11 @@ importers:
 
   packages/tsconfig: {}
 
-  packages/widgets: {}
+  packages/widgets:
+    dependencies:
+      '@thanix-k/core':
+        specifier: '*'
+        version: link:../core
 
 packages:
 

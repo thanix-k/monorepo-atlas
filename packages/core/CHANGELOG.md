@@ -1,5 +1,16 @@
 # @thanix-k/core
 
+## 0.6.0
+
+### Minor Changes
+
+- version 0.5.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @thanix-k/icons@0.8.0
+
 ## 0.5.0
 
 ### Minor Changes

@@ -1,12 +1,14 @@
 {
   "name": "@thanix-k/core",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "license": "MIT",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
+  "scripts": {
+    "compile-ts": "tsx index.ts"
+  },
   "dependencies": {
-    "@thanix-k/icons": "0.7.0",
-    "@thanix-k/widgets": "0.0.0"
+    "@thanix-k/icons": "0.8.0"
   }
 }
